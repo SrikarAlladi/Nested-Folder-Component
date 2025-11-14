@@ -1,0 +1,18 @@
+.activeBlock{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.passiveBlock{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border: 1px solid white;
+    box-shadow: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,49 @@
+ul {
+    list-style-type: none; /* removes dots */
+    padding-left: 1rem; /* keeps indentation for hierarchy */
+    margin: 0;
+}
+  
+li {
+    margin: 4px 0;
+}
+
+.folder{
+    font-size: large; 
+}
+
+
+.arrow-icon {
+    cursor: pointer;
+    margin-right: 5px;
+    font-size: 10px; 
+    font-weight: bold;
+}
+
+.arrow-button{ 
+    border: 0;
+    background: none;
+}
+
+.list-div{
+    cursor: pointer;
+}
+.selected-div{
+    background-color: lightblue;
+}
+
+.button-section{
+    display: flex;
+    gap : 5px;
+}
+.button-icon{
+    cursor: pointer;  
+}
+
+.cancel-button{
+    cursor: pointer;
+}
+
+.add-button{
+    cursor: pointer;
+}
