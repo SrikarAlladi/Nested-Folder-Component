@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import React, { useState } from "react"
 import { useDispatch, useSelector } from "react-redux";
 import { AppDispatch, RootState } from "../store/fileStore";
 import { addFileFolder, handleClick, handleSelection, deleteFile } from "../store/fileSlice";

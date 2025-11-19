@@ -2,15 +2,23 @@ import fileStore from "./store/fileStore";
 import NestedComponent from "./components/NestedComponent";
 import { Provider } from "react-redux";
 
+import NestedFolder from "./nested/NestedFolder";
+
 
 function App() { 
+
+  return (
+    <NestedFolder/>
+  )
+
   return <> 
 
-  <Provider store={fileStore}>
-    <NestedComponent/>
-  </Provider>
+    <Provider store={fileStore}>
+      <NestedComponent/>
+    </Provider>
 
   </>
+
 }
 
 export default App;
